@@ -9,6 +9,7 @@ public class Ex01 {
 				new GenericXmlApplicationContext("/samp01/beans01.xml");
 		MessageBean mb = ac.getBean(MessageBean.class);
 		mb.sayHello();
+//		Çã°Æ
 		ac.close();
 	}
 }
